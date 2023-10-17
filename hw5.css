@@ -1,0 +1,277 @@
+
+.contacst{
+    width: 150px;
+    height: 40px;
+    
+}
+.container {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+header {
+    border-bottom: 1px solid  #828282;
+    height: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header ul {
+    display: flex;
+}
+header ul li:last-child a {
+    margin-right: 0;
+}
+header ul li {
+    margin-right: 40px;
+}
+header ul li a {
+    color: #828282;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+header ul li a:hover {
+color: black;
+}
+.me h1{
+color: var(--Black, #070707);
+font-family: Open Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 50px;
+}
+.me img{
+display: flex;
+justify-content: center;
+width: 970px;
+height: 387px;
+flex-shrink: 0; 
+}
+.portfolio{
+    background-color: #F6F6F6;
+    padding: 100px;
+}
+.portfolio h3{
+color: var(--Black, #070707);
+text-align: center;
+font-family: Open Sans;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 50px;
+}
+.portfolio ul li img {
+width: 970px;
+height: 540px;
+flex-shrink: 0;
+margin-bottom: 40px;
+}
+.portfolio ul li p {
+color: var(--Black, #070707);
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+margin-bottom: 70px;
+}
+.portfolio ul li:last-child p{
+    margin-bottom: 0;
+}
+.skills h3{
+color: var(--Black, #070707);
+text-align: center;
+font-family: Open Sans;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+margin-top: 150px;
+}
+.skills p {
+color: var(--Black, #070707);
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 50px;
+}
+.skills ul {
+display: flex;
+}
+.skills ul li .icon img {
+width: 80px;
+height: 80px;
+flex-shrink: 0;
+margin-right:97px;
+margin-bottom: 25px;
+margin-left: 70px;
+}
+.skills ul li:last-child .icon img{
+width: 53.333px;
+height: 80px;
+margin-right: 0;
+}
+.skills ul li p {
+color: var(--text, #828282);
+text-align: center;
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.28px;
+margin-right: 97px;
+margin-left: 70px;
+margin-bottom: 60px;
+}
+.skills ul li .rating{
+display: flex;
+width: 170px;
+height: 26px;
+align-items: flex-start;
+gap: 10px;
+flex-shrink: 0;
+margin-left: 22px;
+margin-bottom: 100px;
+}
+.skills ul li .rating img {
+width: 26px;
+height: 26px;
+flex-shrink: 0;
+margin-right: 3px;
+}
+.skills ul li:last-child .rating{
+    margin-top: 75px;
+    margin-left: 0;
+}
+
+
+
+.about {
+    margin-top: 15px;
+    background: #F6F6F6;
+    padding: 100px;
+}
+.about h2 {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+.about p {
+color: var(--Black, #070707);
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 30px;
+margin: 0 auto 50px auto;
+}
+.about p:nth-child(1){
+max-width: 480px;
+}
+.about p:nth-child(2){
+    max-width: 406px;
+}
+.about p:nth-child(3){
+    max-width: 321px;
+}
+.about p:last-child {
+    margin-bottom: 0;
+}
+.contacts {
+    margin-top: 15px;
+    background: #ffffff;
+    padding: 100px;
+}
+.contacts h2{
+color: var(--Black, #070707);
+text-align: center;
+font-family: Open Sans;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+}
+.contacts p{
+color: var(--Black, #070707);
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.contacts p :nth-child(1){
+max-width: 280px;
+margin-bottom: 60px;
+}
+.contacts button{
+display: flex;
+width: 180px;
+height: 44px;
+padding: 0px 16px;
+justify-content: center;
+align-items: center;
+border-radius: 22px;
+background: var(--Black, #070707);
+margin: auto;
+display: block;
+margin-top: 60px;
+margin-bottom: 30px;
+}
+.contacts button p{
+color: #FFF;
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.8px;
+}
+.contacts ul{
+display: flex;
+justify-content: center;
+}
+.contacts ul li img{
+width: 40px;
+height: 40px;
+flex-shrink: 0;
+margin-bottom: 60px;
+margin-right: 50px;
+}
+.contacts ul li:last-child img{
+margin-right: 0;
+}
+.contacts p {
+color: #828282;
+text-align: center;
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
