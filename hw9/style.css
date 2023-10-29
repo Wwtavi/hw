@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Farro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+.conteiner{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav h4{
+    color: #000000;
+    font-family: Tourney;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.88px;
+    margin-right: 40px;
+}
+nav p{
+    margin-right: 630px;
+    color: #000;
+    font-family: Staatliches;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.66px;
+}
+nav{
+    padding-bottom: 70px;
+}
+.title h3{
+    color: #000;
+    font-family: Francois One;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+}
+.subtitle{
+    color: #000;
+    font-feature-settings: 'sups' on;
+    font-family: Farro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.title{
+    display: flex;
+    align-items: left;
+    margin-bottom: 40px;
+}
+.article{
+    color: #000;
+    font-family: PT Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    padding-bottom: 70px;
+}
+.sp1{
+    text-decoration-line: underline;
+}
+.sp2{
+    font-style: italic;
+}
+.sp3{
+    font-weight: 700;
+}
+.article:last-child p{
+    margin-bottom: 40px;
+}
+.article:last-child p:last-child{
+    margin-bottom: 0;
+}
+.article4 p:last-child{
+    margin-bottom: 90px;
+}
