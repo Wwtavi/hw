@@ -1,0 +1,122 @@
+.conteiner{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1120px;
+}
+.tools, div.btn,footer{
+    display: flex;
+    justify-content: center;
+}
+.tools img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+h3{
+    color: #2F281E;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+
+}
+.tools h4{
+    color: #2F281E;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+.tools p{
+    color: #544837;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-right: 40px;
+    width: 240px;
+}
+.tools p:last-child{
+    margin-right: 0;
+}
+div.btn{
+    margin-top: 70px;
+}
+.tools button{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    padding: 13px 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--Orange, #F90);
+}
+
+footer{
+    padding-top: 70px;
+}
+img{
+    width: 200px;
+    height: 32px;
+    flex-shrink: 0;
+    margin-right: 130px;
+}
+.list{
+    margin-right: 147px;
+}
+.list2{
+    margin-right: 154px;
+}
+div h4{
+    color: #2F281E;
+    font-family: Gotham;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+    margin-bottom: 30px;
+}
+ul li{
+    color: #544837;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+    margin-bottom: 15px ;
+}
+ul li:last-child{
+    margin-bottom: 0;
+}
+input{
+    display: flex;
+    width: 340px;
+    height: 50px;
+    padding: 0px 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    margin-bottom: 35px;
+}
+button{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    padding: 13px 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--Orange, #F90);
+    border: 1px solid #F90;
+}
