@@ -6,7 +6,12 @@
 .conteiner{
     margin: 0 auto;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
 }
 nav{
     display: flex;
@@ -23,7 +28,7 @@ nav h4{
     margin-right: 40px;
 }
 nav p{
-    margin-right: 630px;
+    margin-right: 200px;
     color: #000;
     font-family: Staatliches;
     font-size: 22px;
@@ -46,6 +51,9 @@ nav{
     text-transform: uppercase;
 }
 .subtitle{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: left;
     color: #000;
     font-feature-settings: 'sups' on;
     font-family: Farro;
@@ -55,9 +63,9 @@ nav{
     line-height: normal;
     letter-spacing: 1.2px;
 }
-
 .title{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto;
     align-items: left;
     margin-bottom: 40px;
 }
