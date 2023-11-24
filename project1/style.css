@@ -70,13 +70,246 @@ header a, footer nav a{
     box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.10);
     color: #FFF;
 }
-.demo-btn svg:root{
-    --color-1: #9C69E2;
-    --color-2: #9C69E2;
-}
-.demo-btn svg:hover{
+.demo-btn:hover #demo path{
     stroke: #FFF;
-    fill: #FFF;
+}
+section h1{
+    color: var(--2, #212353);
+    font-family: Work Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    max-width: 600px;
+    margin-bottom: 50px;
+}
+section p{
+    color: var(--text-gray-dark, #4B5D68);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+.data{
+    padding-bottom: 100px;
+}
+.data p{
+    max-width: 370px;
+    margin-bottom: 50px;
+}
+.data{
+    position: relative;
+}
+.data img{
+    position: absolute;
+    right: 20px;
+    top: 70px;
+    max-width: 770px;
+    z-index: -1;
+}
+.data button{
+    display: flex;
+    width: 210px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1px solid #9C69E2;
+    background: var(--colors-pink, #9C69E2);
+    box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.10);
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    margin-right: 20px;
+}
+.data button:hover{
+    border-radius: 50px;
+    border: 1px solid #8A40EE;
+    background: var(--colors-violet-middle, #8A40EE);
+    box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.10);
+}
+section h2{
+    color: #212353;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    max-width: 500px;
+}
+.we{
+    display: grid;
+    grid-template-columns: 1fr 600px;
+    justify-content: center;
+    justify-items: start;
+    align-items: center;
+    border-radius: 50px;
+    background: var(--colors-pink-medium, #FDE8F5);
+    margin-bottom: 100px;
+}
+.we img{
+    margin: 70px 0  70px 70px;
+}
+.we p{
+    max-width: 500px;
+    margin-top: 40px;
+}
+.features p{
+    max-width: 640px;
+}
+.features .card h5{
+    color: #212353;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    padding-bottom: 20px;
+}
+.features .card p{
+    max-width: 230px;
+    padding-bottom: 20px;
+}
+.features .card a{color: var(--text-violet-dark, #212353);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    letter-spacing: 0.08px;  
+}
+.card{
+    position: relative;
+}
+.card:nth-child(1){
+    border-radius: 50px;
+    background: var(--colors-green-light, #F0FAF9);
+    padding: 50px 60px 50px 100px;
+    margin-bottom:50px;
+}
+.card:nth-child(2){
+    border-radius: 50px;
+    background: var(--colors-violet-light, #F6F0FD);
+    padding: 50px 60px 50px 100px;
+    margin-bottom: 50px;
+}
+.card:nth-child(3){
+    border-radius: 50px;
+    background: var(--colors-pink-light, #FEF0F8);
+    padding: 50px 60px 50px 100px;
+}
+.card:nth-child(4){
+    border-radius: 50px;
+    background: var(--colors-blue-light, #EAF6FC);
+    padding: 50px 60px 50px 100px;
+}
+.card:nth-child(2) p{
+    padding-bottom: 44px;
+}
+.card:nth-child(3) p{
+    padding-bottom: 80px;
+}
+.card img{
+    position:absolute;
+    left: -150px;
+    top: 100px;
+}
+.title-ftr{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 50px;
+}
+.subtitle-ftr{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-content: center;
+    justify-items: center;
+}
+.title-ftr div p{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    justify-items: center;
+    padding-top: 100px;
+}
+.testimonials{
+    background: url(./img/back-img.jpg);
+    max-width: 1200px;
+}
+.testimonials .tesm{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-content: center;
+    justify-items: center;
+}
+.persons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    justify-items: center;
+}
+.person{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    justify-items: end;
+}
+.testimonials .person {
+    border-radius: 50px;
+    border: 1px solid var(--colors-violet, #9C69E2);
+    background: #FFF;
+    box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.10);
+    padding: 50px 0;
+    margin: 80px;
+}
+.testimonials h2{
+    color: var(--text-gray-dark, #4B5D68);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    justify-content: center;
+    justify-items: center;
+}
+.testimonials h5{
+    color: var(--text-violet-dark, #212353);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+.testimonials a{
+    color: var(--3, #9C69E2);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: 0.14px;
+}
+.testimonials p{
+    max-width: 300px;
+    padding-top: 20px;
+}
+.testimonials img{
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+    padding-right: 25px;
 }
 footer .sign-up, .btn{
     display: grid;
@@ -232,6 +465,31 @@ footer ul li a:hover{
     letter-spacing: 0.16px;
     max-width: 200px;
 }
+#ic-fc:hover circle{
+    fill: #ffffff;
+    stroke: #3B5998;
+}
+#ic-fc:hover path{
+    fill: #3B5998;
+    stroke: #3B5998;
+}
+#ic-fc path:hover{
+    fill:#3B5998;
+}
+#ic-tw:hover circle{
+    fill: #ffffff;
+    stroke: #00ACEE;
+}
+#ic-tw:hover path{
+    fill: #00ACEE;
+}
+#ic-in:hover circle{
+    fill: #ffffff;
+    stroke: #C13584;
+}
+#ic-in:hover path{
+    fill: #C13584;
+}
 footer h6{
     color: var(--2, #212353);
     font-family: Montserrat;
@@ -242,3 +500,4 @@ footer h6{
     letter-spacing: 0.12px;
     margin-top: 100px;
 }
+
