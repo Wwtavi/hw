@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+.conteiner{
+    margin: 0% auto;
+    max-width: 1100px;
+    width: auto;
+}
+.title{
+    padding-bottom: 40px;
+}
+.title h3, h1, .icon1{
+    display: flex;
+    justify-content: center;
+}
+.title h3{
+    color: var(--sub-text, #898F8F);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.title h1{
+    color: var(--gold, #FC0);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 66px;
+    text-transform: uppercase;
+}
+hr{
+    border-right:300px solid #FC0;
+}
+.member{
+    display: flex;
+}
+.member-info h2{
+    display: flex;
+    justify-content: center;
+    color: #666;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+.member-info hr{
+    border-bottom: 1px solid #FC0;
+    width: 100px;
+    height: 1px;
+}
+.member-info h3{
+    color: #666;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+    padding: 30px 0;
+}
+.member-info p{
+    color: #333;
+    justify-content: center;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    max-width:630px;
+    height: 116px;
+    flex-shrink: 0;
+    padding-top: 50px;
+}
+button{
+    color: #666;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px; /* 100% */
+    text-transform: uppercase;
+    border: 1px solid var(--gold, #FC0);
+}
+.btn{
+    display: flex;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.member img{
+    width:400px;
+    height: 400px;
+    flex-shrink: 0;
+}
+.member-photo{
+    position: relative;
+}
+.top-right, .top-left, .bottom-right, .bottom-left{
+    width: 100px;
+    min-height: 100px;
+    border: 1px solid #FFCC00;
+    position: absolute;
+    z-index: -1;
+}
+.top-right{
+    top: -15px;
+    right: -15px;
+    border-bottom: unset;
+    border-left: unset;
+}
+.top-left{
+    top: -15px;
+    left: -15px;
+    border-bottom: unset;
+    border-right: unset;
+}
+.bottom-right{
+    bottom: -15px;
+    right: -15px;
+    border-top: unset;
+    border-left: unset;
+}
+.bottom-left{
+    bottom: -15px;
+    left: -15px;
+    border-top: unset;
+    border-right: unset;
+}
