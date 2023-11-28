@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto&display=swap');
+.conteiner{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+}
+header{
+    padding-bottom: 100px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+header a img{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+header h2{
+    color: var(--6, #16133D);
+    font-family: Quicksand;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+}
+section{
+    padding-bottom: 100px;
+}
+.title{
+    padding-bottom: 40px;
+}
+section h3{
+    color: var(--7, #7690A8);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+section h1{
+    color: var(--6, #16133D);
+    font-family: Nunito Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+.content div{
+    border-radius: 8px;
+    border: 1px solid #E5EAF4;
+    background: #FFF;
+    margin: 40px;
+}
+.content div:hover{
+    border-radius: 8px;
+    border: 1px solid #c4ffbb;
+    background: #FFF;
+}
+:root {
+    --color-1: #D1E7FF;
+    --color-2: #B9DCFF;
+    --color-3: #E8F3FF;
+    --color-4: #B9DCFF;
+    --color-5: #D1E7FF;
+    --color-6: #D1E7FF;
+    --color-7: #007FFC;
+}
+svg:hover{
+    stroke: #E1F4F5 ;
+    fill: #E1F4F5;
+    stroke: #CAEFF2;
+    fill: #CAEFF2;
+    stroke: #F4FEFF;
+    fill: #F4FEFF;
+    stroke: #CAEFF2;
+    fill: #CAEFF2;
+    stroke: #E1F4F5;
+    fill: #E1F4F5;
+    stroke:  #52C29D;
+    fill:  #52C29D;
+}
+.content h5{
+    color: var(--6, #16133D);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.28px;
+    letter-spacing: 0.2px;
+    margin-bottom: 15px;
+}
+.content h6{
+    color: var(--text, #16133D);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.content p{
+    color: #3DB370;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+footer{
+    background-color: #16133D;
+}
+footer nav{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+footer a img{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+footer h2{
+    color: var(--6, #ffffff);
+    font-family: Quicksand;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+}
+footer .icons{
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+footer .icons svg{
+    border-radius: 2px;
+    background: var(--1, #EFEEF3);
+    margin-right: 10px;
+}
