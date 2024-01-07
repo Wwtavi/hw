@@ -13,15 +13,17 @@
         <a href="#">
             <svg xmlns="http://www.w3.org/2000/svg" width="45" height="36" viewBox="0 0 45 36" fill="none">
                 <g id="logo"></g>
-                <rect y="15.5" width="18.3099" height="20" rx="9.15493" fill="#9C69E2"/>
-                <rect x="26.5493" y="0.5" width="18.3099" height="35" rx="9.15493" fill="#F063B8"/>
+                <rect y="15.5" width="18.3099" height="20" rx="9.15493" fill="#9C69E2" />
+                <rect x="26.5493" y="0.5" width="18.3099" height="35" rx="9.15493" fill="#F063B8" />
             </svg>
         </a>
         <nav>
-            <a href="#about">About</a>
-            <a href="#help">Help</a>
-            <a href="#features">Features</a>
-            <a href="#sign">Sign Up</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#help">Help</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#sign">Sign Up</a></li>
+            </ul>
         </nav>
     </div>
     <button class="demo-btn">Request Demo
@@ -32,11 +34,11 @@
     </button>
 </header>
 <section class="conteiner data" id="about">
-    <div><img src="./img/data.png" alt="data"></div>
     <h1>Save your data storage here.</h1>
     <p>Data Warehouse is a data storage area that has been
     tested for security, so you can store your data here
     safely but not be afraid of being stolen by others.</p>
+        <div><img src="./img/data.png" alt="data"></div>
     <button>Learn more</button>
 </section>
 <section class="conteiner we" id="help">
@@ -51,14 +53,16 @@
     </div>
 </section>
 <section class="conteiner features" id="features">
-    <div class="title-ftr">
-        <h2>Features</h2>
-    </div>
-    <div class="subtitle-ftr">
-        <p>
-            Some of the features and advantages that we provide for those of you who store
-            data in this Data Warehouse.
-        </p>
+    <div class="titleFeat">
+        <div class="title-ftr">
+            <h2>Features</h2>
+        </div>
+        <div class="subtitle-ftr">
+            <p>
+                Some of the features and advantages that we provide for those of you who store
+                data in this Data Warehouse.
+            </p>
+        </div>
     </div>
     <div class="cards">
         <div class="card">
@@ -174,7 +178,7 @@
         <p>Get limited 1 week free try our features!</p>
     </div>
     <nav>
-        <div>
+        <div class="dataWafle">
             <div class="info">
                 <div class="logo">
                     <a href="#">
@@ -236,11 +240,11 @@
                 </div>
             </div>
         </div>
+    </nav>
         <h6>
             © Datawarehouse™, 2020. All rights reserved.
             Company Registration Number: 21479524.
         </h6>
-    </nav>
 </footer>
     
 </body>
